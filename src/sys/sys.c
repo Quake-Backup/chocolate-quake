@@ -214,7 +214,7 @@ static void Sys_QuitEvent(void) {
         return;
     }
     // Bring up the quit confirmation screen.
-    Cmd_ExecuteString("quit", src_client);
+    Cmd_ExecuteString("quit", src_command);
 }
 
 void Sys_SendKeyEvents() {
